@@ -28,8 +28,8 @@ To run emnlp:
 ## 4. Citation
 
     @article{liu2023generalized,
-    title={On Generalized Degree Fairness in Graph Neural Networks},
-    author={Liu, Zemin and Nguyen, Trung-Kien and Fang, Yuan},
-    journal={arXiv preprint arXiv:2302.03881},
-    year={2023}
+        title={On Generalized Degree Fairness in Graph Neural Networks},
+        author={Liu, Zemin and Nguyen, Trung-Kien and Fang, Yuan},
+        journal={arXiv preprint arXiv:2302.03881},
+        year={2023}
     }
