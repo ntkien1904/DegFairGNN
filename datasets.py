@@ -162,7 +162,7 @@ class Squirrel(Dataset):
         p = int(0.6 * idx.shape[0])
         pt = int(0.8 * idx.shape[0])
         self.idx_train = idx[:p]
-        self.idx_val = idx[pt:]
+        self.idx_val = idx[p:pt]
         self.idx_test = idx[pt:]
 
         
@@ -218,7 +218,7 @@ class Chameleon(Dataset):
         p = int(0.6 * idx.shape[0])
         pt = int(0.8 * idx.shape[0])
         self.idx_train = idx[:p]
-        self.idx_val = idx[pt:]
+        self.idx_val = idx[p:pt]
         self.idx_test = idx[pt:]
 
        
@@ -278,7 +278,7 @@ class EMNLP(Dataset):
         p = int(0.6 * idx.shape[0])
         pt = int(0.8 * idx.shape[0])
         self.idx_train = idx[:p]
-        self.idx_val = idx[pt:]
+        self.idx_val = idx[p:pt]
         self.idx_test = idx[pt:]
 
        
